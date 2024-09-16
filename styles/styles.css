@@ -18,13 +18,8 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 
-body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 
 input, button {
     font-family: inherit;
@@ -38,35 +33,171 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-
 }
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
+main {
+    max-width: 1000px;
+    margin: auto;
+}
 
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 50px 0 0;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 25px;
+}
+
+p {
+    margin: 15px;
+    color: black;
+}
+
+button {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #1C2B32;
+    border-radius: 25px;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+}
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-
-
 /*///////////// 3.1 Header /////////////*/
 
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.header-box {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding: 25px 0 250px;
+}
+
+header p {
+    margin: 5px 0 15px;
+}
+
+.header input {
+    border: 5px solid black;
+}
+
+input {
+    display: inline;
+    color: black;
+    background-color: #fff;
+    margin: -50px;
+    padding: 9px 70px;
+    border-radius: 25px;
+}
+.header-btn {
+    border-radius: 0 25px 25px 0;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
+.testimonial {
+    margin-top: 70px;
+}
 
+.testimonial img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 
+}
+
+blockquote {
+    display: inline-block;
+    margin: 25px 0;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 8px 8px 8px 8px;
+}
+
+.quote {
+    display: inline;
+    position: relative;
+
+}
+
+.piture-quote {
+    position: absolute;
+}
+
+.cite {
+    position: absolute;
+    left: 120px;
+
+}
+
+.person {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.person-img {
+ margin: 0 15px
+}
 
 /*///////////// 3.3 Support /////////////*/
 
-
+.support{
+    margin-top: 70px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
+
+.faq{
+    margin-top: 70;
+    margin-bottom: 70px;
+}
+
+summary {
+    margin-top: 20px;
+}
+
+summary:hover {
+    cursor: pointer;
+}
 
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+footer {
+    background-color: #1C2B32;
+    color: white;
+    height: 70px;
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
